@@ -23,7 +23,8 @@
     "http",
     "ajax",
     "promise",
-    "node"
+    "node",
+    "fetch"
   ],
   "author": "Matt Zabriskie",
   "license": "MIT",
