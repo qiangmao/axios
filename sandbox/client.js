@@ -11,10 +11,10 @@ function handleFailure(data) { console.log('error', data); }
 
 // GET
 axios.get(URL, { params: BODY })
-  .then(handleSuccess)
-  .catch(handleFailure);
+    .then(handleSuccess)
+    .catch(handleFailure);
 
 // POST
 axios.post(URL, BODY)
-  .then(handleSuccess)
-  .catch(handleFailure);
+    .then(handleSuccess)
+    .catch(handleFailure);
