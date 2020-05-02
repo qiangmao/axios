@@ -54,8 +54,8 @@ server = http.createServer(function (req, res) {
         console.error('Error:', e.message);
         status = 400;
         result = {
-           error: e.message
-         };
+          error: e.message
+        };
       }
 
       res.writeHead(status, {
